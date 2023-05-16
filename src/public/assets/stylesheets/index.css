@@ -1,0 +1,128 @@
+/* -------------------  MOBILE  --------------------- */
+.container 
+{
+    width: 780px;
+    background: #FFF no-repeat center top;
+    margin: 0 auto;
+    height:100%;
+}
+span{
+  margin:20px;
+
+}
+.t{
+  font-weight: bolder;
+}
+body {
+  display: flex;
+  margin:20px;
+  align-items:baseline;
+  align-content: center;
+  flex-direction: column;
+  font-family: Arial;
+  color: white;
+  min-height: 100vh;
+  background-image: url("https://wallpx.com/image/2021/07/galaxy-mars-surface.jpg");
+}
+button{
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration:solid;
+  font-weight: bolder;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 16px;
+}
+ button:hover {
+  background-color: #dd7d2e; 
+  color: white;
+}
+
+header {
+  /* header styles */
+  flex: 1;
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  /* footer styles */
+  flex: 1;
+  padding: 20px;
+}
+
+div.photo {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+  
+img {
+  width: 100%;
+}
+  
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+div.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+  div.photo {
+    width: 70%;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+  div.photo {
+    width: 70%;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+  div.photo {
+    width: 70%;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+}
